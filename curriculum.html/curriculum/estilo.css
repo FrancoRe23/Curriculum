@@ -1,0 +1,127 @@
+
+img{
+    border: 2px solid rgb(28, 29, 29);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+
+}
+
+
+
+#Contacto{
+    float: right;
+ 
+ 
+    margin-bottom: 30px;
+    padding-top: 10px;
+   padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    letter-spacing: 3px;
+    border: 2px solid rgb(26, 26, 26);
+    font-variant: small-caps;
+    
+}
+
+#dires{
+    display:none;
+    
+}
+
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
+  
+}
+
+ul.b {
+  list-style-type: circle;
+}
+
+
+
+#anclas{
+    float: initial;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-variant: small-caps;
+    margin-top: 20px;
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-bottom: 30px;
+    border: 2px solid rgb(26, 26, 26);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+
+
+#imagen{
+    float: left;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
+ 
+}
+
+#datos{
+    
+    text-align: center;
+  
+    margin-top: 40px;
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    border: 2px solid rgb(26, 26, 26);
+    font-variant: small-caps;
+    font-size: small;
+    
+    }
+
+
+
+
+#Educación{
+
+    text-align: center;
+   
+    margin-left: 170px;
+    margin-right: 170px;
+    padding-bottom: 20px; 
+    letter-spacing: 3px;
+    margin-bottom:30px;
+    border: 2px solid rgb(26, 26, 26);
+}
+
+#Otros{
+    text-align: center;
+    letter-spacing: 3px;
+    margin-left: 170px;
+    margin-right: 170px;
+    padding-bottom: 20px; 
+    margin-bottom: 30px;
+    border: 2px solid rgb(26, 26, 26);
+
+
+}
+#Experiencia{
+    text-align: center;
+    letter-spacing: 3px;
+    margin-left: 170px;
+    margin-right: 170px;
+    padding-bottom: 20px; 
+    margin-bottom: 30px;
+    border: 2px solid rgb(26, 26, 26);
+
+}

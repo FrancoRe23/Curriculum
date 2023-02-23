@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum vitae</title>
+    <link rel="stylesheet" type="text/css" href="curriculum/estilo.css">
+    <script src="https://kit.fontawesome.com/557d8f1494.js" crossorigin="anonymous"></script>
+    
+    <style>
+    body  {
+     background-image: url(backg.jpeg)
+
+      }
+      </style>
+  
+</head>
+<body>
+ 
+  
+
+ 
+  
+  <div id="anclas" >
+   
+   <a href="#datos">Datos Personales</a>
+   <a href="#Educación">Educación</a>
+   <a href="#Experiencia">Experiencia Laboral</a>
+   <a href="#Otros">Otros Conocimientos</a>
+   
+  </div>
+
+  <div id="Contacto">
+  <button id="contu" onclick="myFunction()"> <h3><b> Contacto </b></h3></button> <br>
+  <i class="fa-brands fa-linkedin" style="font-size:26px;"></i>
+  <i class="fa-brands fa-facebook" style="font-size:26px;"></i>
+  <i class="fa-brands fa-instagram" style="font-size:26px;"></i>
+  <i class="fa-brands fa-github"style="font-size:26px;"></i>
+  
+  <div id="dires">linkedin.com/in/richard-peters <br> es-la.facebook.com/richard-peters <br> instagram.com/richard-peters <br> github.com/Richard-peters</div>
+  </div>
+
+  
+
+  <div id="imagen">
+    <img src="shitlord.jpg" alt="Richard Peters"><br>
+    <button onclick="window.print()">Imprimir Curriculum</button>
+    </div>
+ 
+    <div id="datos"> <!--Datos recopilados en Random user generator-->
+      
+      <h1><u><b> Datos personales </b></u></h1> 
+          <i class="fa-solid fa-user"style="font-size:30px;"></i> 
+          <p>- Nombre: Richard Peters</p>
+          <p>-  6/7/1975 </p>
+          <i class="fa-solid fa-house"style="font-size:30px;"></i>
+          <p>- 5269 Crockett St Fort Worth, Texas.</p>
+          <i class="fa-solid fa-phone"style="font-size:30px;"></i>
+          <p>- T (713) 750-4441 </p>
+          <i class="fa-solid fa-envelope"style="font-size:30px;"></i>
+          <p>- richard.peters@example.com </p>
+    </div>
+
+ 
+
+
+    <div id="Educación">
+    
+      <h1><u><b> Educación </b></u></h1><!--Información de instituciones educativas coherentes con los datos personales para enlaces de ubicación/ se utilizan las web de instituciones reales para las funciones de Javascript--> 
+      <div id="Educación universitaria">
+       <button id="uni" onclick="uni()"> <i class="fa-solid fa-graduation-cap"style="font-size:30px;"></i></button>
+       <li> Educacion Universitaria: <br> Franklyn University 2007-2011, Fort Worth TX</br></li>
+       - Titulo de grado en Computer and Information Sciences and Support Services </p>
+       </div>
+       <button id="secundaria" onclick="secu ()"><i class="fa-solid fa-school"style="font-size:30px;"></i></button>
+       <li>Educación Secundaria: <br> RL Paschal High School 2004-2007, Fort Worth TX <br> </li> 
+      </div>
+      <div id="Experiencia"><!-- las empresas son ficticias, para rellenar los 3 items de experiencia se utilizaron caracteres de loren ipsum-->
+      <h2><u><b>  Experiencia Laboral</b></u></h2>
+      <i class="fa-solid fa-briefcase"style="font-size:30px;"></i>
+      <ul class="a">
+        <li> <i class="fa-solid fa-code"></i> SOFTSAFE ARG: <BR>programador principal</BR>Tareas desarrolladas: <BR> Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..</BR> DE: 2017 - 2023 
+        </li>
+        <li> <i class="fa-solid fa-code"></i> TRIGGER SOFT: <BR>programador junior</BR>Tareas desarrolladas: <BR>Aliquam convallis velit sed quam vulputate accumsan. In placerat dui eget est sodales, et feugiat eros ultricies. Curabitur magna ligula</BR> DE: 2014 - 2017 
+        </li>
+        <li> <i class="fa-solid fa-code"></i> DENISOFT:<BR>Pasante</BR>Tareas desarrolladas: <BR>Fusce sit amet sollicitudin ipsum. Sed at magna molestie, rhoncus lectus vitae, vehicula mauris. Sed eget varius nulla.</BR> DE: 2011 - 2014
+        </li>
+      </ul>
+    </div>
+    <div id="Otros">
+      <h3><u><b> Otros Conocimientos </b></u></h3>
+      <i class="fa-solid fa-computer"style="font-size:30px;"></i>
+      <p> Herramientas de Programación</p>
+      <li> <i class="fa-brands fa-html5"></i> Html <br> Nivel alto </br> </li>
+      <li> <i class="fa-brands fa-square-js"></i>Javascript <br> Nivel alto </br> </li>
+      <li><i class="fa-brands fa-css3"></i> Css <br> Nivel alto </br> </li>
+      
+    </div>
+
+
+    
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("dires");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  </script>
+
+<script>
+  function uni() {
+    window.open("https://www.franklin.edu/home/global");
+  }
+  </script>
+
+<script>
+  function secu() {
+    window.open("https://www.fwisd.org/paschal");
+  }
+  </script>
+  
+</body>
+</html>
